@@ -1,0 +1,109 @@
+main,nav,header
+{
+    display: flex;
+}
+main
+{
+    margin: 80px 0;
+}
+
+.content
+{
+    padding: 0px 20px;
+    width: 100%;
+}
+header, footer
+{
+
+    background-color: #333;
+    box-shadow:0px 0Px 5px 0px #222 ;
+    position: fixed;
+    width:100%
+    
+}
+header
+{
+    top:0
+}
+
+footer
+{
+    bottom:0!important;
+    color:white;
+    padding: 10px;
+}
+
+header a 
+{
+    padding: 13px 8px;
+    color: #eee;
+    font-size: 1.2em;
+}
+
+body
+{
+    margin:0;
+    background: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p
+{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+#social-img
+{
+    width: 100%;
+}
+
+
+.side-bar
+{
+    width:356px;
+position: relative;
+}
+
+.side-nav
+{   
+    position: sticky;
+    top:60px;
+}
+.side-bar a
+{
+    width: 100%;
+    padding: 5px 20px;
+    color: black;
+}
+
+.side-bar a:hover
+{
+color: rgb(225, 0, 86);
+ 
+}
+
+
+*
+{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+h1,H2
+{
+    text-align: center;   
+}
+
+h2
+{
+    color:rgb(225, 0, 86);
+}
+.side-bar div
+{
+    display: flex;
+    flex-direction: column;
+}
