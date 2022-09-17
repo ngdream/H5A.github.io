@@ -102,8 +102,49 @@ h2
 {
     color:rgb(225, 0, 86);
 }
+
+a
+{
+    color:#222
+}
+
+a:hover svg
+{
+    fill: rgb(194, 0, 110);
+}
+
+center
+{
+    text-align: center;
+}
+
+a:hover
+{
+    color:rgb(225, 0, 86);
+}
 .side-bar div
 {
     display: flex;
     flex-direction: column;
+}
+
+table
+{
+    width:100% ;
+}
+
+th
+{
+    font-size: 1.2rem;
+}
+table td
+{
+    height: 60px;
+    border: #222 solid 1px;
+}
+
+td a
+{
+    display: block;
+    text-align: center;
 }
