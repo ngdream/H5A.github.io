@@ -7,4 +7,4 @@
 
 **thanks to**
 
-- [Kashyap Pandya](https://github.com/Kashyap-Pandya)
+- [Kashyap Pandya](https://github.com/Kashyap-Pandya) : for the icon design and improvement on h5a's website
