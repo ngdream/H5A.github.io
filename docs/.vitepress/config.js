@@ -1,6 +1,7 @@
 export default {
     lang: "en-Us",
     title: 'H5assembler',
+    base : '/H5A.github.io/',
     outlineTitle: 'In hac pagina',
     titleTemplate: "Code satic html pages without repeating yourself",
     description: 'Code satic html pages without repeating yourself',
