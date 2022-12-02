@@ -35,7 +35,7 @@ Lorem ipsum Lorem ipsum
 h5assembler offers you a technology allowing you to reduce your html code and guarantees you an easy integration in
 frameworks such as (laravel, django)
 
-- ### @include fonction
+- ### @include function
 
 Assuming we want to use a navbar in multiple html file, the simplest to do that will be to create a `navbar.html` file containing the code of the navbar and include that file in the file which require it, in our case, `index.html`.
 
@@ -102,7 +102,7 @@ You can give more than one file as argument to the `h5a` command
 </html>
 ```
 
-- ### @repeat fonction
+- ### @repeat function
 
 The repeat function allow us to generate multiple identical lines in a simple way.
 
