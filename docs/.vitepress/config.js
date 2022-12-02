@@ -1,4 +1,39 @@
-export default {
+import { defineConfig } from "vitepress";
+
+const defaultSidebar = [
+    {
+        text: "Guide",
+        items: [
+            { text: "Getting started", link: "/guide/#getting-started" },
+        ],
+    },
+    {
+        text: "Installation",
+        collapsible: true,
+        items: [
+            {
+                text: "Windows",
+                link: "/guide/#windows",
+            },
+        ],
+    },
+    {
+        text: "Usage",
+        collapsible: true,
+        collapsed: true,
+        items: [
+            {
+                text: "@include",
+                link: "/guide/#include-function",
+            },
+            {
+                text: "@repeat",
+                link: "/guide/#repeat-function",
+            },
+        ],
+    },
+];
+export default defineConfig( {
     lang: "en-Us",
     title: 'H5assembler',
     outlineTitle: 'In hac pagina',
@@ -11,7 +46,6 @@ export default {
         logo: { src: "/icon.png", alt: "H5assembler logo" },
         nav: [
             { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-            { text: 'Usage', link: '/usage/', activeMatch: '/usage/' },
             { text: 'Changelog', link: 'https://github.com/ngdream/H5assembler/releases' }
         ],
         socialLinks: [
@@ -32,6 +66,9 @@ export default {
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present Ngdream'
+        },
+        sidebar: {
+            "/guide/": defaultSidebar
         }
     }
-}
+})
