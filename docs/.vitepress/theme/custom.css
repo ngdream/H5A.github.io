@@ -61,11 +61,11 @@
   
 
 
-    --vp-h5assembler-brand: #0000ff;
+    --vp-h5assembler-brand: #0155AA;
     --vp-h5assembler-brand-light: #2e2effe7;
-    --vp-h5assembler-brand-lighter: #6d6dffe7;
-    --vp-h5assembler-brand-dark: #08095e;
-    --vp-h5assembler-brand-darker: #060124;
+    --vp-h5assembler-brand-lighter: #0155AA;
+    --vp-h5assembler-brand-dark: #0155AA;
+    --vp-h5assembler-brand-darker: #0155AA;
     --vp-h5assembler-brand-dimm-1: rgba(21, 43, 138, 0.5);
     --vp-h5assembler-brand-dimm-2: rgba(8, 28, 95, 0.25);
     --vp-h5assembler-brand-dimm-3: rgba(19, 12, 56, 0.05);
@@ -324,8 +324,8 @@
     --vp-custom-block-info-bg: var(--vp-c-black-mute);
     --vp-custom-block-info-code-bg: var(--vp-c-gray-dark-4);
   
-    --vp-custom-block-tip-border: var(--vp-fireman-brand-dimm-2);
-    --vp-custom-block-tip-text: var(--vp-fireman-brand-light);
+    --vp-custom-block-tip-border: var(--vp-h5assembler-brand-dimm-2);
+    --vp-custom-block-tip-text: var(--vp-h5assembler-brand-light);
   
     --vp-custom-block-warning-border: var(--vp-c-yellow-dimm-2);
     --vp-custom-block-warning-text: var(--vp-c-yellow-light);
